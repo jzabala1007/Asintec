@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>registrarse</title>
+   
+	<style>
+		html{
+			height: 100%;
+			}			
+			.contenedor{
+				position:absolute;
+				top: 50%;
+				left: 50%;
+				width: 400px;
+				padding: 40px;
+				transform: translate(-50%, -50%);
+				background:  rgba(10, 12, 12, 0.87) ;
+				box-sizing: border-box;
+				box-shadow: 0 15px 25px rgba(169, 173, 169, 0.891) ;
+				border-radius: 10px;
+			}
+			.contenedor h2{
+				margin: 0 0 30px;
+				padding: 0;
+				color:aliceblue;
+				text-align: center;
+			}
+			.contenedor .usuario{
+				position: relative;
+			}
+			.contenedor .usuario input{
+				width: 100%;
+				padding: 18px 0;
+				font-size: 16px;
+				color: aliceblue;
+				margin-bottom: 30px;
+				border: none;
+				border-bottom: 1px solid aliceblue;
+				outline: none;
+				background: transparent;
+
+			}
+			.contenedor .usuario label{
+				position: absolute;
+				top: 0;
+				left: 0;
+				padding: 18px 0;
+				font-size: 16px;
+				color: aliceblue;
+				pointer-events: none;
+				transition: .5s;
+
+			}
+	
+
+	</style>
+
+
+</head>
+<body>
+    <div class="contenedor">
+<h2>iniciar de sesion</h2>
+<div style="display: flex; justify-content: center; align-items: center;">
+	<img src="../img/asintec.png" class="img-fluid" alt="Avatar" style="width: 200px; height: 200px;">
+  </div>
+  <br>
+<form action="ingresar">
+    <div class="usuario">
+		<input type="text" placeholder="Usuario" required>
+           
+    </div>
+    <div class="usuario">
+		<input type="password" placeholder="Contraseña" required>
+			
+
+			</div>
+			<a href="home.html" style="display: inline-block; padding: 10px 20px; background-color: #606d61; color: white; text-decoration: none; border-radius: 5px; font-weight: bold;">Ingresar</a>
+			<!--<input type="submit" name="submit" class="btn-primary btn pull-right" value="Ingresar">-->
+
+ 
+</form>
+    </div>
+    
+</body>
+</html>
